@@ -1,0 +1,76 @@
+body, html {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#github-ribbon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+	z-index: 100;
+}
+
+h1 {
+	text-align: center;
+}
+
+.background {
+  fill: #a4bac7;
+}
+
+.foreground {
+  fill: none;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+.graticule {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.graticule:nth-child(2n) {
+  stroke-dasharray: 2,2;
+}
+
+.land {
+  fill: #d7c7ad;
+  stroke: #766951;
+}
+
+.boundary {
+  fill: none;
+  stroke: #a5967e;
+}
+
+svg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.country {
+	fill: #FFFFFF;
+	stroke: #000000;
+}
+
+.country.ARG {
+	fill: #666666;
+}
+
+#footer {
+	font-size: 75%;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#credits {
+	float: left;
+}
+
+#attribution {
+	float: right;
+}
+
